@@ -226,7 +226,7 @@ img {
     margin: 2px auto;
 }
 
-.produtos_lista li p {
+.produtos_icone li p {
     padding: 10px 20px 20px 20px;
 }
 
@@ -378,7 +378,6 @@ img {
 
 .footer_redes ul li {
     display: inline-block;
-    margin-left: 10px;
 }
 
 .footer_redes ul li a {

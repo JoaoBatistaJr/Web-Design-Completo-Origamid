@@ -1,6 +1,22 @@
 /* Estilo para tablets */
 
-@media only screen and (min-width: 788px) and (max-width: 979px) {}
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+    /* Qualidade Home */
+    .qualidade::after {
+        right: 66px;
+    }
+    .qualidade_lista li {
+        padding: 0 6px;
+    }
+    /* Footer */
+    .footer_redes ul li a {
+        padding: 5px;
+    }
+    .footer_redes ul li a img {
+        width: 26px;
+        height: 26px;
+    }
+}
 
 
 /* Estilo para smartphones */
@@ -29,10 +45,24 @@
         border-color: #fff;
     }
     /* Introdução */
+    .introducao h1 {
+        font-size: 36px;
+    }
     .introducao {
         margin-top: 0px;
-        padding-top: 20px;
+        padding-top: 60px;
         background: url("../img/bg-mobile.jpg") no-repeat center;
         background-size: cover;
+    }
+    /* call */
+    .call {
+        padding-top: 10px;
+    }
+    .qualidade::after {
+        display: none;
+    }
+    /* Produtos */
+    .produtos_lista {
+        margin-bottom: 10px;
     }
 }
